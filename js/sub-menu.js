@@ -1,0 +1,1 @@
+const services=document.querySelector(".services"),subMenu=document.querySelector(".sub-menu");services.addEventListener("click",()=>{let e="true"===services.getAttribute("aria-expanded");services.setAttribute("aria-expanded",!e),services.classList.toggle("on"),subMenu.classList.toggle("sub-menu--open")});
